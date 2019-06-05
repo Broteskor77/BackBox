@@ -60,7 +60,7 @@ printf $rojo
 figlet -f smslant Install
 sleep 3.5
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh
-#cp start-backbox.sh /data/data/com.termux/files/usr/bin
+cp start-backbox.sh /data/data/com.termux/files/usr/bin
 
 #carp BackBox
 printf $reset
